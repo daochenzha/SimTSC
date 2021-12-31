@@ -1,0 +1,4 @@
+torch==1.7.0
+numpy
+pandas
+sklearn

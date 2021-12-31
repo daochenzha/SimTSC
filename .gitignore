@@ -1,0 +1,10 @@
+__pycache__
+*.pyc
+*.swp
+*.wsn
+*.swo
+
+tmp/
+logs/
+pydtw/
+multivariate/
