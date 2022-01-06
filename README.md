@@ -1,5 +1,5 @@
 # SimTSC
-This is the PyTorch implementation of SDM2022 paper **Towards Similarity-Aware Time-Series Classification**.
+This is the PyTorch implementation of SDM2022 paper [Towards Similarity-Aware Time-Series Classification](https://arxiv.org/abs/2201.01413)
 
 ## Installation
 ```
