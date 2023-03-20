@@ -1,5 +1,8 @@
 # SimTSC
 This is the PyTorch implementation of SDM2022 paper [Towards Similarity-Aware Time-Series Classification](https://arxiv.org/abs/2201.01413). We propose Similarity-Aware Time-Series Classification (SimTSC), a conceptually simple and general framework that models similarity information with graph neural networks (GNNs). We formulate time-series classification as a node classification problem in graphs, where the nodes correspond to time-series, and the links correspond to pair-wise similarities.
+
+:loudspeaker: Promotion: Please check out our [data-centric AI survey](https://arxiv.org/abs/2303.10158) and [awesome data-centric AI resources](https://github.com/daochenzha/data-centric-AI)!
+
 <img width="800" src="overview.png" alt="overview" />
 
 ## Installation
