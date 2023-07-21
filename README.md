@@ -11,7 +11,7 @@ pip3 install -r requirements.txt
 ```
 
 ## Datasets
-We provide an example dataset **Coffee** in this repo. You may download the full UCR datasets [here](https://www.cs.ucr.edu/~eamonn/time_series_data_2018/). Multivariate datasets are provided in [this link](https://drive.google.com/file/d/1obj8UI_H70PR5haQKQYnYVXyp8x-lWtC/view?usp=sharing).
+We provide an example dataset **Coffee** in this repo. You may download the full UCR datasets [here](https://www.cs.ucr.edu/~eamonn/time_series_data_2018/). Multivariate datasets are provided in [this link](https://github.com/daochenzha/SimTSC-multivariate-datasets).
 
 ## Quick Start
 We use **Coffee** as an example to show how to run the code. You may easily try other datasets with arguments `--dataset`. We will show how to get the results for DTW+1NN, ResNet, and SimTSC.
