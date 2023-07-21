@@ -108,8 +108,6 @@ def compute_accuracy(model, X, y, adj, K, alpha, loader, device, other_idx, othe
 class SimTSC(nn.Module):
     def __init__(self, input_size, nb_classes, num_layers=1, n_feature_maps=64, dropout=0.5):
         super(SimTSC, self).__init__()
-        self.device = 'cuda:0'
-
         self.num_layers = num_layers
 
         self.block_1 = ResNetBlock(input_size, n_feature_maps)
@@ -144,7 +142,8 @@ class SimTSC(nn.Module):
         sparse_index = torch.LongTensor(sparse_index)
         sparse_value = torch.FloatTensor(sparse_value)
         adj = torch.sparse.FloatTensor(sparse_index, sparse_value, adj.size())
-        adj = adj.to(self.device)
+        device = self.gc1.bias.device
+        adj = adj.to(device)
 
         x = self.block_1(x)
         x = self.block_2(x)

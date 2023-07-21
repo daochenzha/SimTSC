@@ -6,6 +6,7 @@ This is the PyTorch implementation of SDM2022 paper [Towards Similarity-Aware Ti
 <img width="800" src="overview.png" alt="overview" />
 
 ## Installation
+Please ensure to use Python 3.6. Python 3.7+ is not supported.
 ```
 pip3 install -r requirements.txt
 ```
@@ -16,7 +17,7 @@ We provide an example dataset **Coffee** in this repo. You may download the full
 ## Quick Start
 We use **Coffee** as an example to show how to run the code. You may easily try other datasets with arguments `--dataset`. We will show how to get the results for DTW+1NN, ResNet, and SimTSC.
 
-First, prepare the dataset with
+First, prepare the dataset with (the generated dataset is already available in this repo)
 ```
 python3 create_dataset.py
 ```
@@ -29,7 +30,7 @@ pip3 install -e .
 cd ..
 ```
 
-Then compute the dtw matrix for **Coffee** with
+Then compute the dtw matrix for **Coffee** with (the dtw matrix is already available in this repo)
 ```
 python3 create_dtw.py
 ```
